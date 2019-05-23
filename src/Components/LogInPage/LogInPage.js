@@ -15,7 +15,7 @@ export default class LogInPage extends React.Component {
 
                     </div>
                     <div className="loginComponentPassword">
-                        <label>Password*</label>
+                        <label>Password *</label>
                         <input type="text" placeholder="Enter the Password" />
 
                     </div>
