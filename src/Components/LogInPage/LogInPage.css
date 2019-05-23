@@ -1,0 +1,106 @@
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #282c34;
+    flex-direction: column;
+    background: url("../netflixbackground.jpg");
+}
+input:hover{
+    background: #fff;
+    color: #000;
+}
+.titleStyle{
+  height: 200px;
+   width: 30%;
+   text-align: center;
+   align-self: center;
+}
+
+.loginComponentContainer{
+    margin: auto;
+    width: 40%;
+    background-color: #263238;
+    padding: 20px;
+    text-align: center;
+} 
+
+.loginComponentContainer h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+}
+.loginComponentEmail{
+    padding: 10px;
+}
+.loginComponentEmail label{
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.loginComponentEmail input{
+    color: #fff;
+    width: 50%;
+    background: transparent;
+    border: 2px solid #f57f17;
+    border-bottom: 2px solid #ffd600;
+    border-right:2px solid #ffd600;
+    border-radius: 40px;
+     
+    font-size: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    
+    
+
+}
+.loginComponentPassword{
+    padding: 10px;
+}
+
+.loginComponentPassword label{
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.loginComponentPassword input{
+    color: #fff;
+    width: 50%;
+    background: transparent;
+    border: 2px solid #f57f17;
+    border-bottom: 2px solid #ffd600;
+    border-right:2px solid #ffd600;
+    border-radius: 40px;
+     
+    font-size: 15px;
+    padding: 10px 15px;
+    text-align: center;
+
+}
+.forgotPasswordLabel{
+ display: block;
+ color: #fff;
+ font-size: 12px;
+}
+
+.loginButton{
+    width: 40%;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
